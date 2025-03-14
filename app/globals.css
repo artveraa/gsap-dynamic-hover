@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #121212;
+  --light: #f1f1f1;
+  --background: var(--dark);
+  --foreground: var(--light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--dark);
+    --foreground: var(--light);
+  }
+}
+
+* {
+  @apply m-0 p-0 box-border appearance-none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply text-foreground bg-background font-inter;
+}
