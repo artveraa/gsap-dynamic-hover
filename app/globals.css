@@ -4,7 +4,7 @@
 
 :root {
   --dark: #121212;
-  --light: #f1f1f1;
+  --light: #bab8b9;
   --background: var(--dark);
   --foreground: var(--light);
 }
@@ -24,4 +24,19 @@
 
 body {
   @apply text-foreground bg-background font-inter;
+}
+
+.mwg_effect041 .item.hovered span {
+  pointer-events: none;
+}
+
+.mwg_effect041 .hidden {
+  pointer-events: none;
+  position: absolute;
+  bottom: 100%;
+}
+
+.mwg_effect041 .item span {
+  display: inline-block;
+  will-change: transform;
 }

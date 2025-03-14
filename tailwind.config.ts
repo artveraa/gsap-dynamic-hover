@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "custom-gray": "rgba(185, 185, 185, 0.3)",
       },
       fontFamily: {
         ibmPlexMono: "var(--font-ibm-plex-mono)",

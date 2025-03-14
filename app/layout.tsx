@@ -15,8 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "001 - Card Stack",
-  description: "A card stack effect with GSAP and ScrollTrigger.",
+  title: "041 - Dynamic hover",
+  description:
+    "A simple example of how to create a dynamic hover effect with GSAP.",
 };
 
 export default function RootLayout({
